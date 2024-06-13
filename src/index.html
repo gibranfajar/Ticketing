@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/output.css" />
+  </head>
+  <body class="bg-light-gray">
+    <div
+      class="min-h-screen flex items-center justify-center container mx-auto px-4 md:w-5/12"
+    >
+      <div>
+        <img src="assets/img/logo.png" alt="Logo" />
+        <div class="bg-navy rounded-lg p-6 md:p-16">
+          <h1 class="text-3xl text-white text-center font-semibold mb-4">
+            Login
+          </h1>
+          <form action="dashboard.html">
+            <div class="mb-2">
+              <label class="text-white font-sans">Email</label>
+              <input
+                type="text"
+                class="block w-full rounded-sm py-1 px-2"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="mb-2">
+              <label class="text-white">Password</label>
+              <input
+                type="password"
+                class="block w-full rounded-sm py-1 px-2"
+                name="password"
+                id="password"
+              />
+            </div>
+            <div class="mt-5">
+              <button
+                type="submit"
+                class="bg-orange-500 px-5 py-2 rounded-md w-full text-white hover:bg-orange-600/80"
+              >
+                Login
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
